@@ -4,17 +4,20 @@
     font-family: "Inter", sans-serif;
 }
 
+/* navber start */
+
 .container {
     max-width: 1200px;
     margin: auto;
-    background-color: red;
+    /* background-color: red; */
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 15PX;
+    padding: 15PX 0px;
+    border: 1px solid rgb(217, 214, 214);
 }
 
 nav div img {
@@ -43,4 +46,39 @@ ul li a{
     border: none;
     box-shadow: 6px 5px 10px #8e9096;
     cursor: pointer;
+}
+/* navber end, but you can cng also for sm element */
+
+
+/* hero section */
+.hero-part{
+    background-image: url(/image/banner.jpg);
+    height:700px ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center -80px;
+}
+
+.hero-written{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items:center ;
+    padding: 100px;
+    gap: 20px;
+}
+
+.hero-written strong h1{
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+.hero-written p{
+    color: rgb(241, 239, 239);
+    padding: 0px -100px;
+} 
+
+.hero-btn .container{
+    margin-top: 300px;
 }
