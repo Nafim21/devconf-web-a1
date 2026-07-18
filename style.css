@@ -47,7 +47,6 @@ nav ul li a {
     box-shadow: 6px 5px 10px #8e9096;
     cursor: pointer;
 }
-
 /* navber end, but you can cng also for sm element */
 
 
@@ -90,6 +89,7 @@ nav ul li a {
 }
 
 /* hero style end*/
+
 
 /* speaker style start*/
 .s-box {
@@ -145,8 +145,8 @@ nav ul li a {
     padding-left: 20px;
     margin-top: 5px;
 }
-
 /* speaker style end */
+
 
 /* Pricing card style start */
 .pricing {
@@ -173,7 +173,6 @@ nav ul li a {
     display: flex;
     justify-content: center;
     gap: 30px;
-
 }
 
 .card {
@@ -242,8 +241,83 @@ nav ul li a {
 }
 
 /* Pricing card style end */
+
+
+/* something miissing css */
+
+.journey {
+    padding: 100px 0px;
+    padding-bottom: 60px;
+    background-color: gray;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.journey-head {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.journey-head h2 {
+    font-size: 50px;
+    color: black;
+}
+
+.journey-head p {
+    margin-top: 5px;
+    color: #000000e7;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.journey-cards{
+    display: flex;
+    gap: 30px;
+    margin: 0px 30px;
+}
+
+.journey-card{
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 15px;
+    padding: 30px;
+    color: #333333FF;
+    background-color: #f8f9fbFF;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    box-shadow: rgba(0, 0, 0, 0.615) 10px 10px 10px;
+}
+
+.icon{
+    font-size: 50px;
+    color: #142c6cf8;
+    margin-bottom: 10px;
+}
+
+.journey-cards h3{
+    font-size: 30px;
+    margin-bottom: 12px;
+    min-height: 70px;
+}
+
+.journey-card button{
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: 1px solid #2563eb;
+    border-radius: 8px;
+    background: white;
+    color: #2563eb;
+    cursor: pointer;
+    width: 150px;
+    box-shadow: black 5px 5px 15px;
+}
+/* something miissing css end*/
+
+
+/* footer style */
 footer {
-    background-color: #0a2f95;
+    background-color: #010136;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -276,3 +350,8 @@ footer {
     font-size: 30px;
     padding: 0px 25px;
 }
+
+.contact-info{
+    color: #c0bcbc;
+}
+/* footer style end */
