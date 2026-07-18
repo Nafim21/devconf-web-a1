@@ -47,12 +47,21 @@ nav ul li a {
     box-shadow: 6px 5px 10px #8e9096;
     cursor: pointer;
 }
+
 /* navber end, but you can cng also for sm element */
 
 
 /* hero style start */
 .hero-part {
-    background-image: url(./image/banner.jpg);
+    /* background-image:url(./image/banner.jpg); */
+
+    background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.756),
+            rgba(0, 0, 0, 0.09)
+        ), url(./image/banner.jpg);
+        /* dark layout ta right side na ante pere onek khon try korar por na pere ai er help newa hoise (linear-gradiettuku)*/
+
     min-height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,8 +69,17 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
+
+/* .overlay {
+    width: 100%;
+    min-height: 600px;
+    background: rgba(0, 0, 0, 0.704);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+} */
 
 .hero-written {
     color: white;
@@ -69,6 +87,7 @@ nav ul li a {
     /* border: 2px red solid; */
     width: 100%;
     margin-top: 120px;
+    text-align: center;
 }
 
 .hero-written h1 {
@@ -145,6 +164,7 @@ nav ul li a {
     padding-left: 20px;
     margin-top: 5px;
 }
+
 /* speaker style end */
 
 
@@ -271,13 +291,13 @@ nav ul li a {
     margin-bottom: 25px;
 }
 
-.journey-cards{
+.journey-cards {
     display: flex;
     gap: 30px;
     margin: 0px 30px;
 }
 
-.journey-card{
+.journey-card {
     border: 1px solid rgb(224, 224, 224);
     border-radius: 15px;
     padding: 30px;
@@ -289,19 +309,19 @@ nav ul li a {
     box-shadow: rgba(0, 0, 0, 0.615) 10px 10px 10px;
 }
 
-.icon{
+.icon {
     font-size: 50px;
     color: #142c6cf8;
     margin-bottom: 10px;
 }
 
-.journey-cards h3{
+.journey-cards h3 {
     font-size: 30px;
     margin-bottom: 12px;
     min-height: 70px;
 }
 
-.journey-card button{
+.journey-card button {
     margin-top: 20px;
     padding: 12px 20px;
     border: 1px solid #2563eb;
@@ -312,6 +332,7 @@ nav ul li a {
     width: 150px;
     box-shadow: black 5px 5px 15px;
 }
+
 /* something miissing css end*/
 
 
@@ -345,13 +366,14 @@ footer {
     margin: 10px 0px;
 }
 
-.footer-icon i{
+.footer-icon i {
     color: rgb(189, 162, 90);
     font-size: 30px;
     padding: 0px 25px;
 }
 
-.contact-info{
+.contact-info {
     color: #c0bcbc;
 }
+
 /* footer style end */
