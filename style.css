@@ -243,7 +243,7 @@ nav ul li a {
 
 /* Pricing card style end */
 footer {
-    background-color: #071d5b;
+    background-color: #0a2f95;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -251,15 +251,15 @@ footer {
 
 .footer-right {
     text-align: center;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .foot-icon-section {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding-top: 10px;
     gap: 20px;
-    font-size: 30px;
+    margin-bottom: 15px;
 }
 
 .footer-right h3 {
@@ -268,8 +268,11 @@ footer {
 
 .footer-left {
     color: #c0bcbc;
+    margin: 10px 0px;
 }
 
-.footer-icon{
-    font-color: #071d5b;
+.footer-icon i{
+    color: rgb(189, 162, 90);
+    font-size: 30px;
+    padding: 0px 25px;
 }
